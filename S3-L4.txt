@@ -1,0 +1,18 @@
+Ersercizio S3-L4
+
+Il codice fa si che un server accetti connessioni da client su una porta specifica.
+Una volta connesso il server attende i comandi del client e da risposte 
+in base ai comandi inseriti.
+
+BACKDOOR
+Le backdoor sono accessi non autorizzati in un sistema informatico e si suddivino in
+1) SOFTWARE
+Ovvero nel codice sorgente.
+2) HARDWARE
+Fisicamente presenti nelle componentistiche.
+3) DI SISTEMA
+Presenti nei sistemi operativi o nei protocolli di rete.
+
+Nel codice di oggi è presente una vulnerabilità nel gestire il comando 2,
+non c'è controllo sull'input che il client dà e questa si potrebbe trasformare in una backdoor
+di tipo software perchè il server esegue tutto ciò che gli vienne imesso.
